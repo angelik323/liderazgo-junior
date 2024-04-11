@@ -23231,3 +23231,14 @@ body.photographer-home.dark-version ul#mobile-menu-active li a {
   padding-top: 120px;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+/* |||Estilos de logo header |||*/
+.logo-header {
+  font-size: 153%;
+  font-weight: 700;
+  color: #000;
+}
+
+.color-logo {
+  color: #ffae00;
+}
