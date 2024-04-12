@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="assets/css/plugins/unicons.css">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/modal.css">
 </head>
 
 <body class="onepage">
@@ -24,7 +25,7 @@
             <div class="row align-items-center">
                 <div class="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                     <a href="index.html" class="thumbnail">
-                       <p class="logo-header"> <span class="color-logo">L</span>iderazgo <span class="color-logo">J</span>unior</p> 
+                    <p class="logo-header"> <span class="color-logo">L</span>iderazgo <span class="color-logo">J</span>unior</p> 
                     </a>
                 </div>
                 <div class="col-xl-8 justify-content-center d-flex d-none d-xl-block">
@@ -128,139 +129,232 @@
     </div>
     <!-- rts banenr area end -->
 
-    <!-- rts about area start -->
-    <div class="rts-about-area about-one-shape rts-section-gap " id="about">
+    <!-- main axes start -->
+    <div class="rts-blog-area rts-section-gapBottom rts-section-gap" id="blog">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 pr--30 pr_md--0 pr_sm--0">
-                    <div class="about-thumbnail-one">
-                        <img src="assets/images/about/01.jpg" alt="about-thumbnail">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-area-main-center text-anim">
+                        <span class="pre-title">
+                            Ejes Principales
+                        </span>
+                        <h2 class="title">
+                            Bienvenid@
+                        </h2>
+                        <p class="disc text-anim">
+                            Queremos lograr una transformación cultural trabajando siempre en equipo.
+                        </p>
+                        <h3 class="title">
+                            En Audifarma contamos con cuatro ejes principales:
+                        </h3>
+                        <p class="disc text-anim">
+                            Te invitamos a explorar cada eje principal de Audifarma.
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="about-right-content">
-                        <div class="title-area-main-left ">
-                            <span class="pre-title text-anim">
-                                More About Me
+            </div>
+            <div class="row g-5 mt--10">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="single-blog-area-one">
+                        <a href="blog-details.html" class="thumbnail">
+                            <img src="assets/images/blog/01.jpg" alt="blog-img">
+                        </a>
+                        <div class="inner-content text-anim">
+                            <a href="blog-details.html" class="title">
+                                <h6 class="title">
+                                    Empatía
+                                </h6>
+                            </a>
+                            <a href="#modal1" class="extand-icon">
+                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="single-blog-area-one">
+                        <a href="blog-details.html" class="thumbnail">
+                            <img src="assets/images/blog/02.jpg" alt="blog-img">
+                        </a>
+                        <div class="inner-content text-anim">
+                            <a href="blog-details.html" class="title">
+                                <h6 class="title">
+                                    Humildad
+                                </h6>
+                            </a>
+                            <a href="#modal2" class="extand-icon">
+                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="single-blog-area-one">
+                        <a href="blog-details.html" class="thumbnail">
+                            <img src="assets/images/blog/03.jpg" alt="blog-img">
+                        </a>
+                        <div class="inner-content text-anim">
+                            <a href="blog-details.html" class="title">
+                                <h6 class="title">
+                                    Centrado en las personas
+                                </h6>
+                            </a>
+                            <a href="#modal3" class="extand-icon">
+                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <div class="single-blog-area-one">
+                        <a href="blog-details.html" class="thumbnail">
+                            <img src="assets/images/blog/01.jpg" alt="blog-img">
+                        </a>
+                        <div class="inner-content text-anim">
+                            <a href="blog-details.html" class="title">
+                                <h6 class="title">
+                                    Orientado al resultado
+                                </h6>
+                            </a>
+                            <a href="#modal4" class="extand-icon">
+                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main axes end -->
+
+    <!--   ||| Modales ejes principales   |||-->
+    <div id="modal1" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Empatía:</h2>
+            <p>Para conversar mirando siempre a los ojos, con cercanía, confianza y retroalimentación.</p>
+        </div>
+    </div>
+    <div id="modal2" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Humildad:</h2>
+            <p>Para conocer tus virtudes y ponerlas al servicio de los demás reconociendo que en la vida nadie es perfecto.
+        </div>
+    </div>
+    <div id="modal3" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Centrado en las personas:</h2>
+            <p>Todos los seres humanos tienen fortalezas que aportar y oportunidades para mejorar.</p>
+        </div>
+    </div>
+    <div id="modal4" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Orientado al resultado:</h2>
+            <p>Desafiándote siempre a alcanzar nuevos retos en una renovada cultura de alto desempeño.</p>
+        </div>
+    </div>
+    <!-- Modales end -->
+
+    <!-- rts testimonials area start -->
+    <div class="rts-testimonials-area rts-section-gapBottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-btn-area">
+                        <div class="title-area-main-left">
+                            <span class="pre-title">
+                                Liderazgo inspirador
+                                <hr>
                             </span>
                             <h2 class="title text-anim">
-                                Need Creative Design?<br>
-                                I can Help You!
+                                Cultura organizacional
                             </h2>
-                            <p class="disc text-anim">
-                                Product Designer and Digital Creative Director working in design field for 13 years so
-                                far, specialized in UI/UX, Branding and digital designs. These are the words we live by
-                                in everything we do. Every story we tell, every brand we build, and every interaction
-                                create must not only look beautiful. beautifully, too.
-                            </p>
-                            <div class="social-wrapepr-one text-anim">
-                                <p>You Can Follow Me also Here:</p>
-                                <div class="main-wrapper">
-                                    <a href="#"><img src="assets/images/about/social/01.png" alt="about-social"></a>
-                                    <a href="#"><img src="assets/images/about/social/02.png" alt="about-social"></a>
-                                    <a href="#"><img src="assets/images/about/social/03.png" alt="about-social"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p>Una cultura organizacional derivada de un liderazgo inspirador que libere el potencial de nuestra gente, nos lleva a mejorar, CRECER, y a ser más sensatos generando una verdadera TRANSFORMACIÓN.</p>
+
+
+            <div class="row mt--50">
+                <div class="col-12">
+                    <div class="swiper mytestimonails swiper-testimonials">
+                        <div class="swiper-wrapper testimonails">
+                            <div class="swiper-slide">
+                                <div class="row g-5 w-g-100">
+                                    <div class="col-12">
+                                        <div class="main-testimonials">
+                                            <img src="assets/images/testimonials/01.png" alt="Client">
+                                            <div class="review-area">
+                                                <p class="disc">
+                                                    Es muy importante que identifiques cómo dices las cosas o cómo te diriges a los demás y cuál 
+                                                    es la terminología que utilizas, ya que ésta te marca a ti y a los demás.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="row g-5 w-g-100">
+                                    <div class="col-12">
+                                        <div class="main-testimonials">
+                                            <img src="assets/images/testimonials/01.png" alt="Client">
+                                            <div class="review-area">
+                                                <p class="disc">Es fundamental que comprendas que el lenguaje de todos no es el mismo, pero debes hacerlo 
+                                                    fácil y comprensible para hacerte entender de la mejor manera, para esto debes hacer lo siguiente:</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="swiper-slide">
+                                <div class="row g-5 w-g-100">
+                                    <div class="col-12">
+                                        <div class="main-testimonials">
+                                            <img src="assets/images/testimonials/01.png" alt="Client Quote">
+                                            <div class="review-area">
+                                                <ul>
+                                                    <li> <p class="disc">Ser humilde para aceptar cuando no entiendes o no sabes algo.</p> </li>
+                                                    <li><p class="disc">Aceptar que no tienes el dominio de todo.</p> </li>
+                                                    <li><p class="disc">Responder de manera positiva.</p> </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts about area end -->
 
-    <!-- service area start -->
-    <div class="rts-service-area rts-section-gap service-shape-one service-one-bg" id="service">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-area-main-center">
-                        <span class="pre-title ">
-                            What I provide
-                        </span>
-                        <h2 class="title  text-anim">
-                            Need Creative Design? <br>
-                            I can Help You!
-                        </h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt--20 g-5">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <!-- start service style one -->
-                    <div class="single-service text-anim">
-                        <div class="icon">
-                            <img src="assets/images/service/icon/01.svg" alt="service-icon">
-                        </div>
-                        <a href="#">
-                            <h5 class="title">
-                                Business Strategy
-                            </h5>
-                        </a>
-                        <p class="disc">
-                            Fringilla dapibus platea interdum ac justout elementum lectus sed tellus midign issimer
-                            egestas imperdiet.
-                        </p>
-                        <a href="#" class="more-btn">See Pricing <i class="fal fa-arrow-right"></i></a>
-                    </div>
-                    <!-- start service style two -->
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <!-- start service style one -->
-                    <div class="single-service text-anim">
-                        <div class="icon">
-                            <img src="assets/images/service/icon/02.svg" alt="service-icon">
-                        </div>
-                        <a href="#">
-                            <h5 class="title">
-                                Motion Graphic
-                            </h5>
-                        </a>
-                        <p class="disc">
-                            Fringilla dapibus platea interdum ac justout elementum lectus sed tellus midign issimer
-                            egestas imperdiet.
-                        </p>
-                        <a href="#" class="more-btn">See Pricing <i class="fal fa-arrow-right"></i></a>
-                    </div>
-                    <!-- start service style two -->
-                </div>
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
-                    <!-- start service style one -->
-                    <div class="single-service text-anim">
-                        <div class="icon">
-                            <img src="assets/images/service/icon/03.svg" alt="service-icon">
-                        </div>
-                        <a href="#">
-                            <h5 class="title">
-                                Interactive Design
-                            </h5>
-                        </a>
-                        <p class="disc">
-                            Fringilla dapibus platea interdum ac justout elementum lectus sed tellus midign issimer
-                            egestas imperdiet.
-                        </p>
-                        <a href="#" class="more-btn">See Pricing <i class="fal fa-arrow-right"></i></a>
-                    </div>
-                    <!-- start service style two -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- service area end -->
+    <!-- rts testimonials area End -->
+
+
+    <!-- inner body bg wrapper start -->
+    <div class="light-bg-inner-wrapper">
 
     <!-- experience area start -->
-    <div class="rts-experience-area rts-section-gap" id="experience">
+    <div class="rts-experience-area rts-section-gap redu-space" id="experience">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="title-area-main-center">
-                        <span class="pre-title">
-                            My Experience
-                        </span>
                         <h2 class="title text-anim">
-                            Honours & Awards What <br>
-                            I Have & Proud
+                            Como líder debes brindar ambientes seguros, ten presente <br>
+                            que tu equipo lo conforman seres humanos.
                         </h2>
+                        <span class="pre-title">
+                            Herramientas que te permiten Comunicar para inspirar:
+                        </span>
                     </div>
                 </div>
             </div>
@@ -270,19 +364,14 @@
                     <div class="experience-one-inner split-me">
                         <div class="experience-left">
                             <div class="start">
-                                <p>2014 - 2015</p>
+                                <p></p>Pasos:
                             </div>
                             <div class="end">
                                 <a href="#">
-                                    <h6 class="title">Product Designer</h6>
+                                    <h6 class="title">Actividad Réplica Exacta:</h6>
                                 </a>
-                                <span>Amazon Inc.</span>
+                                <span>Ejercicio de sensibilización sobre la importancia de la forma en la que comunicas la información.</span>
                             </div>
-                        </div>
-                        <div class="experience-right">
-                            <a href="#" class="icon">
-                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                     <!-- single experience area end -->
@@ -290,19 +379,13 @@
                     <div class="experience-one-inner split-me before-off">
                         <div class="experience-left">
                             <div class="start">
-                                <p>2015 - 2017</p>
+                                <p>Nota:</p>
                             </div>
                             <div class="end">
                                 <a href="#">
-                                    <h6 class="title">UI Designer</h6>
+                                    <h6 class="title">(La actividad se puede realizar de manera presencial o virtual).</h6>
                                 </a>
-                                <span>Amazon Inc.</span>
                             </div>
-                        </div>
-                        <div class="experience-right">
-                            <a href="#" class="icon">
-                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                     <!-- single experience area end -->
@@ -310,19 +393,14 @@
                     <div class="experience-one-inner split-me before-off">
                         <div class="experience-left">
                             <div class="start">
-                                <p>2017 - 2018</p>
+                                <p>Paso 1:</p>
                             </div>
                             <div class="end">
                                 <a href="#">
-                                    <h6 class="title">Web UI/UX Designer</h6>
+                                    <h6 class="title">Pídele a tu equipo que identifique el mejor comunicador del equipo.</h6>
                                 </a>
-                                <span>Amazon Inc.</span>
+                                <span>Envíale a la persona que elijan un dibujo de formas geométricas que va a dictar al resto del grupo.</span>
                             </div>
-                        </div>
-                        <div class="experience-right">
-                            <a href="#" class="icon">
-                                <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                            </a>
                         </div>
                     </div>
                     <!-- single experience area end -->
@@ -330,17 +408,32 @@
                     <div class="experience-one-inner split-me before-off">
                         <div class="experience-left">
                             <div class="start">
-                                <p>2019 - Present</p>
+                                <p>Paso 2:</p>
                             </div>
                             <div class="end">
                                 <a href="#">
-                                    <h6 class="title">UI/UX Designer</h6>
+                                    <h6 class="title">Los participantes deberán intentar hacer una réplica exacta</h6>
                                 </a>
-                                <span>Amazon Inc.</span>
+                                <span>Con la información que brinda el comunicador.(Tú como líder te conviertes en observador).</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- single experience area end -->
+                    <!-- single experience area start -->
+                    <div class="experience-one-inner split-me before-off">
+                        <div class="experience-left">
+                            <div class="start">
+                                <p>Paso 3:</p>
+                            </div>
+                            <div class="end">
+                                <a href="#">
+                                    <h6 class="title">Ejemplo de figura</h6>
+                                </a>
+                                <span>Puedes visualizar y descargar la imagen de ejemplo para esta actividad.</span>
                             </div>
                         </div>
                         <div class="experience-right">
-                            <a href="#" class="icon">
+                            <a href="#modal-replica" class="icon">
                                 <i class="rts-btn btn-main fal fa-arrow-right"></i>
                             </a>
                         </div>
@@ -351,368 +444,21 @@
         </div>
     </div>
     <!-- experience area end -->
-
-    <!-- inner body bg wrapper start -->
-    <div class="light-bg-inner-wrapper">
-        <!-- start portfolioa area -->
-        <div class="portfoloio-area rts-section-gapBottom pt--20" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-btn-area">
-                            <div class="title-area-main-left">
-                                <span class="pre-title">
-                                    My Portfolio
-                                    <hr>
-                                </span>
-                                <h2 class="title  text-anim">
-                                    Checkout My Latest <br>
-                                    Portfolio
-                                </h2>
-                            </div>
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5 mt--10">
-                    <div class="col-12">
-                        <div class="swiper mygallery mySwipers">
-                            <div class="swiper-wrapper gallery">
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-
-                                        <div class="col-lg-5">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/01.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Mobile Business Design</h5>
-                                                        </a>
-                                                        <span>UI/UX Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-7">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/02.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Lokomotive Project</h5>
-                                                        </a>
-                                                        <span>Branding Web Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-
-                                        <div class="col-lg-5">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/01.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Mobile Business Design</h5>
-                                                        </a>
-                                                        <span>UI/UX Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-7">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/02.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Interactive Design</h5>
-                                                        </a>
-                                                        <span>Development Web Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-
-                                        <div class="col-lg-5">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/01.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Mobile Business Design</h5>
-                                                        </a>
-                                                        <span>UI/UX Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-7">
-                                            <div class="portfolio-wrapper-one">
-                                                <a href="project-details.html" class="thumbnail">
-                                                    <img src="assets/images/product/02.jpg" alt="portfolio-main">
-                                                </a>
-                                                <div class="inner">
-                                                    <div class="left">
-                                                        <a href="project-details.html">
-                                                            <h5 class="title">Lokomotive Project</h5>
-                                                        </a>
-                                                        <span>Branding Web Design</span>
-                                                    </div>
-                                                    <div class="right">
-                                                        <a href="project-details.html" class="extand-icon">
-                                                            <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end portfolioa area -->
-
-        <!-- rts testimonials area start -->
-        <div class="rts-testimonials-area rts-section-gapBottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="title-btn-area">
-                            <div class="title-area-main-left">
-                                <span class="pre-title">
-                                    My Clients Sayes
-                                    <hr>
-                                </span>
-                                <h2 class="title text-anim">
-                                    What’s My Client Say <br>
-                                    About Us.
-                                </h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt--50">
-                    <div class="col-12">
-                        <div class="swiper mytestimonails swiper-testimonials">
-                            <div class="swiper-wrapper testimonails">
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-                                        <div class="col-12">
-                                            <div class="main-testimonials">
-                                                <img src="assets/images/testimonials/01.png" alt="Client">
-                                                <div class="review-area">
-                                                    <p class="disc">
-                                                        “Product Designer and Digital Creative Director working in design field for 13 years
-                                                        so far, specialized in UI/UX, Branding and digital designs. These are the words we
-                                                        live by in everything we do”
-                                                    </p>
-                                                    <p class="full-deg">
-                                                        <span class="name">
-                                                            Melesa Deon /
-                                                        </span>
-                                                        <span class="degic">
-                                                            Art Director
-                                                        </span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-                                        <div class="col-12">
-                                            <div class="main-testimonials">
-                                                <img src="assets/images/testimonials/01.png" alt="Client Quote">
-                                                <div class="review-area">
-                                                    <p class="disc">
-                                                        “Product Designer and Digital Creative Director working in design field for 13 years
-                                                        so far, specialized in UI/UX, Branding and digital designs. These are the words we
-                                                        live by in everything we do”
-                                                    </p>
-                                                    <p class="full-deg">
-                                                        <span class="name">
-                                                            Melesa Deon /
-                                                        </span>
-                                                        <span class="degic">
-                                                            Art Director
-                                                        </span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="row g-5 w-g-100">
-                                        <div class="col-12">
-                                            <div class="main-testimonials">
-                                                <img src="assets/images/testimonials/01.png" alt="Client Quote">
-                                                <div class="review-area">
-                                                    <p class="disc">
-                                                        “Product Designer and Digital Creative Director working in design field for 13 years
-                                                        so far, specialized in UI/UX, Branding and digital designs. These are the words we
-                                                        live by in everything we do”
-                                                    </p>
-                                                    <p class="full-deg">
-                                                        <span class="name">
-                                                            Melesa Deon /
-                                                        </span>
-                                                        <span class="degic">
-                                                            Art Director
-                                                        </span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- rts testimonials area End -->
-
-        <!-- rts blog area -->
-        <div class="rts-blog-area rts-section-gapBottom" id="blog">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="title-area-main-center text-anim">
-                            <span class="pre-title">
-                                More About Me
-                            </span>
-                            <h2 class="title">
-                                My Latest News Insights
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row g-5 mt--10">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-blog-area-one">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/01.jpg" alt="blog-img">
-                            </a>
-                            <div class="inner-content text-anim">
-                                <div class="top-area">
-                                    <span class="name">by david smith</span>
-                                    <span class="date">15 Dec, 2022</span>
-                                </div>
-                                <a href="blog-details.html" class="title">
-                                    <h6 class="title">
-                                        Top tools for Designer
-                                    </h6>
-                                </a>
-                                <a href="blog-details.html" class="extand-icon">
-                                    <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-blog-area-one">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/02.jpg" alt="blog-img">
-                            </a>
-                            <div class="inner-content text-anim">
-                                <div class="top-area">
-                                    <span class="name">by david smith</span>
-                                    <span class="date">15 Dec, 2022</span>
-                                </div>
-                                <a href="blog-details.html" class="title">
-                                    <h6 class="title">
-                                        How to improve work performance
-                                    </h6>
-                                </a>
-                                <a href="blog-details.html" class="extand-icon">
-                                    <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div class="single-blog-area-one">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="assets/images/blog/03.jpg" alt="blog-img">
-                            </a>
-                            <div class="inner-content text-anim">
-                                <div class="top-area">
-                                    <span class="name">by david smith</span>
-                                    <span class="date">15 Dec, 2022</span>
-                                </div>
-                                <a href="blog-details.html" class="title">
-                                    <h6 class="title">
-                                        How I became a Web Designer
-                                    </h6>
-                                </a>
-                                <a href="blog-details.html" class="extand-icon">
-                                    <i class="rts-btn btn-main fal fa-arrow-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- rts blog area End -->
     </div>
     <!-- inner body bg wrapper start -->
+
+    <!--   ||| Modales ejes principales   |||-->
+    <div id="modal-replica" class="modalmask">
+        <div class="modalbox rotate">
+            <a href="#close" title="Close" class="close">X</a>
+            <h2>Ejemplo de figura para la actividad:</h2>
+            <img src="assets/images/img-replica.jpeg" alt="">
+            <a href="assets/images/img-replica.jpeg" download="replicar-actividad-liderazgo.jpeg">
+                <button class="rts-btn btn-main">Descargar imagen</button>
+            </a>
+        </div>
+    </div>
+    <!-- Modales end -->
 
     <!-- rts footer area start -->
     <div class="rts-footer-area footer-one-bg footer-one" id="contact">
@@ -841,20 +587,20 @@
             <div class="spinner">
             </div>
             <div class="txt-loading">
-                <span data-text-preloader="M" class="letters-loading">
-                        M
-                    </span>
-                <span data-text-preloader="A" class="letters-loading">
-                        A
-                    </span>
-                <span data-text-preloader="Z" class="letters-loading">
-                    Z
+                <span data-text-preloader="L" class="letters-loading">
+                        L
                     </span>
                 <span data-text-preloader="I" class="letters-loading">
-                    I
+                        I
                     </span>
-                <span data-text-preloader="N" class="letters-loading">
-                        N
+                <span data-text-preloader="D" class="letters-loading">
+                    D
+                    </span>
+                <span data-text-preloader="E" class="letters-loading">
+                    E
+                    </span>
+                <span data-text-preloader="R" class="letters-loading">
+                        R
                     </span>
             </div>
             <p class="text-center">Loading</p>
@@ -921,7 +667,6 @@
 
     <!-- main js hear -->
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html
