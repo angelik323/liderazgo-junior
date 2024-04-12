@@ -244,9 +244,9 @@
                     spaceBetween: 30,
                     grabCursor: true,
                     // effect: 'fade',
-                    speed: 500,
+                    speed: 800,
                     autoplay: {
-                        delay: 2000,
+                        delay: 9000,
                     },
                 });
             });
