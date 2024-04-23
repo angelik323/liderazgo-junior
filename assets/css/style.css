@@ -9417,6 +9417,11 @@ input {
   padding: 0 15px;
 }
 
+.vea {
+  height: 12px !important;
+  padding: 0 15px;
+}
+
 input[type=text],
 input[type=password],
 input[type=email],
@@ -23708,4 +23713,137 @@ th, td {
 /*Eliminar espacio modulo 2*/
 div#blog1 {
   margin-top: -8em;
+}
+
+/*Estilos de nums*/
+.zoom {
+  cursor: pointer;
+  transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.tam-num {
+  width: 50%;
+}
+
+.contenedor-num {
+  position: relative;
+}
+
+.hijo-num {
+
+  /* centrar vertical y horizontalmente */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}
+
+.radius {
+  border-radius: 8px;
+}
+
+
+/*Estilos para accordeon modulo 2*/
+.acordeon {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.barra {
+  background-color: #ffc476;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.contenido {
+  display: none;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+
+/*Girar tarjetas - flip cards*/
+
+/*
+    ** All elements border-box
+*/
+*,
+*:before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+button:focus {
+  outline: 0;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px solid #dfdfdf;
+  margin: 0;
+}
+
+.cards-grid {
+  display: flex;
+  grid-gap: 80px;
+  padding-bottom: 60px;
+}
+
+/* FLIP CARD */
+.flip-card {
+  width: 320px;
+  height: 504px;
+  perspective: 2000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  transition: all 550ms cubic-bezier(0.1, 0.22, 0.8, 1.13);
+  transform-style: preserve-3d;
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flip-card-back {
+  font-size: 1.25rem;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  padding: 32px;
+  background-color: #f2d9b8;
+  transform: rotateY(180deg);
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.scroll-flip {
+
+  overflow-y: scroll;
+}
+
+/*Estilo de nums modulo 2*/
+img.zoom.reduesp {
+  margin-top: -5em;
 }
