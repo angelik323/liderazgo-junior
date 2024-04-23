@@ -23663,3 +23663,49 @@ th, td {
 .banner-main-image.ella {
   margin-right: 5em;
 }
+
+.tam-span {
+  font-size: 25px;
+}
+
+.tam-L {
+  font-size: 18px;
+}
+
+.esp {
+  margin-top: 4em;
+}
+
+/*7 podcast*/
+.container-audio {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.visualizer {
+  margin-top: 20px;
+  font-size: 18px;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+/* Estilos personalizados para el reproductor de audio */
+#audioPlayer {
+  background-color: var(--color-primary); /* Cambia el color de fondo a azul */
+  border-radius: 50px;
+  color: white; /* Cambia el color del texto a blanco */
+  /* Agrega más estilos según sea necesario */
+}
+
+/* Estilos para los controles del reproductor de audio */
+#audioPlayer::-webkit-media-controls-panel {
+  background-color: var(--color-primary); /* Cambia el color de fondo de los controles a azul */
+  color: white; /* Cambia el color del texto de los controles a blanco */
+  /* Agrega más estilos según sea necesario */
+}
+
+
+/*Eliminar espacio modulo 2*/
+div#blog1 {
+  margin-top: -8em;
+}
