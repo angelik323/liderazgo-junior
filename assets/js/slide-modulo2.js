@@ -60,6 +60,13 @@ anioElemento.textContent = anioActual;
 
 //7 podcast
 const audio = document.getElementById('audioPlayer');
+const audio2 = document.getElementById('audioPlayer2');
+const audio3 = document.getElementById('audioPlayer3');
+const audio4 = document.getElementById('audioPlayer4');
+const audio5 = document.getElementById('audioPlayer5');
+const audio6 = document.getElementById('audioPlayer6');
+const audio7 = document.getElementById('audioPlayer7');
+
 const visualizer = document.getElementById('visualizer');
 const visualizer2 = document.getElementById('visualizer2');
 const visualizer3 = document.getElementById('visualizer3');
@@ -92,36 +99,38 @@ const parrafos = textoPersonalizado.split('\n');
 
 // Escucha el evento 'play' del audio
 audio.addEventListener('play', function() {
+    debugger;
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio2.addEventListener('play', function() {
+    debugger;
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer2.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio3.addEventListener('play', function() {
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer3.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio4.addEventListener('play', function() {
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer4.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio5.addEventListener('play', function() {
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer5.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio6.addEventListener('play', function() {
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer6.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
 
-audio.addEventListener('play', function() {
+audio7.addEventListener('play', function() {
     // Agrega los párrafos al visualizador cuando se presione el botón de reproducción
     visualizer7.innerHTML = parrafos.map(parrafo => `<p>${parrafo}</p>`).join('');
 });
@@ -132,32 +141,32 @@ audio.addEventListener('ended', function() {
     visualizer.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio2.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer2.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio3.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer3.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio4.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer4.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio5.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer5.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio6.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer6.innerHTML = "";
 });
 
-audio.addEventListener('ended', function() {
+audio7.addEventListener('ended', function() {
     // Cuando el audio termina, borra el contenido del visualizador
     visualizer7.innerHTML = "";
 });
@@ -165,6 +174,31 @@ audio.addEventListener('ended', function() {
 
 // Escucha el evento 'timeupdate' para actualizar el visualizador de texto
 audio.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+    // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
+    const texto = textoPersonalizado;
+    visualizer.textContent = texto;
+
+});
+
+
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio2.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+
+    const texto2 = textoPersonalizado2;
+    visualizer2.textContent = texto2;
+    
+});
+
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio3.addEventListener('timeupdate', function() {
     const currentTime = audio.currentTime;
     const duration = audio.duration;
     const percentage = (currentTime / duration) * 100;
@@ -192,6 +226,3 @@ audio.addEventListener('timeupdate', function() {
     const texto7 = textoPersonalizado7;
     visualizer7.textContent = texto7;
 });
-
-
-
