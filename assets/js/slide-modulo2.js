@@ -204,25 +204,52 @@ audio3.addEventListener('timeupdate', function() {
     const percentage = (currentTime / duration) * 100;
 
     // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
-    const texto = textoPersonalizado;
-    visualizer.textContent = texto;
-
-    const texto2 = textoPersonalizado2;
-    visualizer2.textContent = texto2;
-    
-
     const texto3 = textoPersonalizado3;
     visualizer3.textContent = texto3;
 
+});
+
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio4.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+    // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
     const texto4 = textoPersonalizado4;
     visualizer4.textContent = texto4;
+});
 
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio5.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+    // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
     const texto5 = textoPersonalizado5;
     visualizer5.textContent = texto5;
+});
 
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio6.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+    // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
     const texto6 = textoPersonalizado6;
     visualizer6.textContent = texto6;
+});
 
+// Escucha el evento 'timeupdate' para actualizar el visualizador de texto
+audio7.addEventListener('timeupdate', function() {
+    const currentTime = audio.currentTime;
+    const duration = audio.duration;
+    const percentage = (currentTime / duration) * 100;
+
+    // Actualiza el contenido del visualizador con información sobre el tiempo de reproducción
     const texto7 = textoPersonalizado7;
     visualizer7.textContent = texto7;
 });
+

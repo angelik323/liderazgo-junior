@@ -23702,8 +23702,21 @@ th, td {
   /* Agrega más estilos según sea necesario */
 }
 
+#audioPlayer2 {
+  background-color: var(--color-primary); /* Cambia el color de fondo a azul */
+  border-radius: 50px;
+  color: white; /* Cambia el color del texto a blanco */
+  /* Agrega más estilos según sea necesario */
+}
+
 /* Estilos para los controles del reproductor de audio */
 #audioPlayer::-webkit-media-controls-panel {
+  background-color: var(--color-primary); /* Cambia el color de fondo de los controles a azul */
+  color: white; /* Cambia el color del texto de los controles a blanco */
+  /* Agrega más estilos según sea necesario */
+}
+
+#audioPlayer2::-webkit-media-controls-panel {
   background-color: var(--color-primary); /* Cambia el color de fondo de los controles a azul */
   color: white; /* Cambia el color del texto de los controles a blanco */
   /* Agrega más estilos según sea necesario */
