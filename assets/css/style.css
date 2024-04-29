@@ -23888,3 +23888,11 @@ div#about3 {
 .vs {
   text-align: center;
 }
+
+h2.title.text-anim.tam-text-footer {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  color: #fff;
+  margin-bottom: 0;
+}
